@@ -10,7 +10,6 @@ COPY ./style.css /usr/share/nginx/html/style.css
 
 # (Opcional) Copiar sua configuração personalizada do Nginx
 # O arquivo nginx.conf fornecido é quase idêntico ao padrão.
-COPY ./nginx.conf /etc/nginx/nginx.conf
 
 # Expor a porta 80 (padrão do Nginx)
 EXPOSE 80
